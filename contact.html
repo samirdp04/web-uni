@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidad Simon Bolivar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/04e19613e8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="assets/logo.png"></a>
+            <div class="nav-links"  id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="about.html">SOBRE NOSOTROS</a></li>
+                    <li><a href="course.html">OFERTA ACADEMICA</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACTO</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contactanos</h1>
+    </section>
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7833.043555969042!2d-74.79938900851401!3d10.999423656652787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d70aba29ffd%3A0x415d706989e36634!2sUniversidad%20Sim%C3%B3n%20Bol%C3%ADvar%20Sede%201!5e0!3m2!1ses!2sco!4v1709954165540!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h3>Cra. 59 #59132</h3>
+                        <p>Barranquilla, Atlántico.</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h3>+57 3146192336</h3>
+                        <p>Lunes a Viernes, 8AM A 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h3>unisimon@gmail.com</h3>
+                        <p>Envíenos su consulta por correo electrónico</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Ingresa tu nombre" required>
+                    <input type="email" placeholder="Ingresa tu correo" required>
+                    <input type="text" placeholder="Ingresa tu tema" required>
+                    <textarea rows="8" placeholder="Mensaje" required></textarea>
+                    <button type="submit" class="hero-btn green-btn">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4> Sobre nosotros</h4>
+        <p>Siguenos en nuestras redes sociales, <br> para mas información acerca de nuestra universidad.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Creado con <i class="fa fa-heart-o"></i> Hecho por Samir del Portillo </p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
